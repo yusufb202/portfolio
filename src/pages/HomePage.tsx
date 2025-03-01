@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className="absolute inset-0 transform translate-y-[-5%] scale-110">
           <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/80 dark:from-black/90 dark:via-black/70 dark:to-black/90 z-10"></div>
           <img 
-            src="/3.png" 
+            src={`${process.env.PUBLIC_URL}/3.png`} 
             alt="Hero background" 
             className="w-full h-full object-cover"
             onError={(e) => {
