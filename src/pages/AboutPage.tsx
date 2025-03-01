@@ -48,7 +48,7 @@ const AboutPage = () => {
         <div className="flex justify-center mb-12">
           <div className="w-64 h-64 rounded-xl overflow-hidden">
             <img 
-              src="/portfolio.png" 
+              src="/portfolio/portfolio.png" 
               alt="Profile Photo" 
               className="w-full h-full object-cover"
             />
