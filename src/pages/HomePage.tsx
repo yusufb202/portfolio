@@ -74,7 +74,7 @@ const HomePage = () => {
               <div className="relative w-64 h-64 mx-auto">
                 <div className="absolute inset-0 rounded-full bg-blue-600/20 animate-pulse"></div>
                 <img 
-                  src="/portfolio.png" 
+                  src="/portfolio/portfolio.png" 
                   alt="Profile Photo" 
                   className="w-full h-full object-cover rounded-full border-4 border-white dark:border-blue-900/30 relative z-10"
                 />
@@ -160,7 +160,7 @@ const HomePage = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = '/1.png';
+                    target.src = '/portfolio/1.png';
                   }}
                 />
               </div>

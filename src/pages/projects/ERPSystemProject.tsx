@@ -7,13 +7,13 @@ const ERPSystemProject = () => {
   const intl = useIntl();
   
   const projectImages = [
-    "/src/assets/images/projects/ERP/1.jpg",
-    "/src/assets/images/projects/ERP/2.jpg",
-    "/src/assets/images/projects/ERP/3.jpg",
-    "/src/assets/images/projects/ERP/4.jpg",
-    "/src/assets/images/projects/ERP/5.jpg",
-    "/src/assets/images/projects/ERP/6.jpg",
-    "/src/assets/images/projects/ERP/7.jpg"
+    "/portfolio/assets/images/projects/ERP/1.jpg",
+    "/portfolio/assets/images/projects/ERP/2.jpg",
+    "/portfolio/assets/images/projects/ERP/3.jpg",
+    "/portfolio/assets/images/projects/ERP/4.jpg",
+    "/portfolio/assets/images/projects/ERP/5.jpg",
+    "/portfolio/assets/images/projects/ERP/6.jpg",
+    "/portfolio/assets/images/projects/ERP/7.jpg"
   ];
 
   const nextImage = () => {
