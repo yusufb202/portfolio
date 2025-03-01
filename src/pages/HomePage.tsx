@@ -17,12 +17,12 @@ const HomePage = () => {
         <div className="absolute inset-0 transform translate-y-[-5%] scale-110">
           <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/80 dark:from-black/90 dark:via-black/70 dark:to-black/90 z-10"></div>
           <img 
-            src={`${process.env.PUBLIC_URL}/3.png`} 
+            src="/portfolio/3.png" 
             alt="Hero background" 
             className="w-full h-full object-cover"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
-              target.src = '/1.png';
+              target.src = '/portfolio/1.png';
             }}
           />
         </div>
@@ -182,12 +182,12 @@ const HomePage = () => {
             <div className="group relative overflow-hidden">
               <div className="h-80 bg-gray-300 dark:bg-gray-700 overflow-hidden">
                 <img 
-                  src="/src/assets/images/projects/ERP/1.jpg" 
+                  src="/portfolio/assets/images/projects/ERP/1.jpg" 
                   alt="Orb ERP Project" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = '/1.png';
+                    target.src = '/portfolio/1.png';
                   }}
                 />
               </div>
